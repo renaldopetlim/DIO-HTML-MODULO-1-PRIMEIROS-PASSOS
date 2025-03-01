@@ -83,6 +83,9 @@
         <label>Number: </label><br>
             <input type="number" min="0" step="1" max="100">
         <br>
+        <label>File: </label><br>
+            <input type="file">
+        <br>
         <label>Range: </label><br>
             <input type="range" min="0" max="100" value="75">
         <br>
@@ -91,6 +94,9 @@
         <br>
         <label>E-mail: </label><br>
             <input type="email">
+        <br>
+        <label>Password: </label><br>
+            <input type="password">
         <br>
         <label>URL: </label><br>
             <input type="url">
@@ -118,6 +124,31 @@
         <br>
         <label>Button: </label><br>
             <input type="submit" value="Enviar">
-    </form>
+    </form> <br>
+
+    <hr><hr>
+
+    <form method="get">
+        <h2>Você Selecionou: Pizza de Calabresa</h2>
+        <p>Quais Opcionais Você Deseja?</p>
+            <input type="checkbox" name="opcional[]" value="queijo"> + Queijo <br>
+            <input type="checkbox" name="opcional[]" value="bacon"> + Bacon <br>
+            <input type="checkbox" name="opcional[]" value="calabresa"> + Calabresa <br>
+            <input type="checkbox" name="opcional[]" value="batata-frita"> + Batata Frita <br>
+        
+        <p>Deseja Borda Recheada?</p>
+            <input type="radio" name="borda" value="sim"> Sim <br>
+            <input type="radio" name="borda" value="nao"> Não <br>
+        
+        <p>Bebida</p>
+            <input type="radio" name="bebida" value="suco"> Suco <br>
+            <input type="radio" name="bebida" value="refrigerante"> Refrigerante <br>
+            <input type="radio" name="bebida" value="agua"> Água <br>
+            <input type="radio" name="bebida" value="nenhum"> Nenhum <br> <br>
+        
+        <button type="submit">Enviar Pedido</button>
+    </form> <br>
+
+    <hr><hr>
 </body>
 </html>
