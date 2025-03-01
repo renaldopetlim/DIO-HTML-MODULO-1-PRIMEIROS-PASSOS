@@ -46,7 +46,7 @@
     </p>
 
     <hr>
-    <p>A tag HR é usada para criar uma linha horizontal na página, 
+    <p>A tag "hr" é usada para criar uma linha horizontal na página, 
         indicando separação de conteúdos, mudança de tema ou seção dentro de um documento.
         Não precisa de tag de fechamento.</p>
     <hr>
@@ -74,7 +74,11 @@
         define uma abreviação quando o usuário para o mouse sobre o texto da tag.
     </p>
 
+    <br>
+
     <hr><hr>
+
+    <br>
 
     <form>
         <label>Text: </label><br>
@@ -150,5 +154,26 @@
     </form> <br>
 
     <hr><hr>
+
+    <br>
+
+    <form method="get">
+        <h2>Preencha Com Os Seus Dados:</h2>
+        <label>Nome: </label>
+            <input type="text" name="name"> <br><br>
+        <label>Cargo: </label>
+        <select name="role">
+            <option value="">Selecione o Cargo</option>
+            <option value="gerente">Gerente</option>
+            <option value="logistica">Logística</option>
+            <option value="administracao">Administração</option>
+        </select> <br><br>
+        <label>Assunto: </label>
+            <input type="text" name="subject"> <br><br>
+        <label">Mensagem: </label>
+            <textarea name="message" rows="5" cols="30"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
 </body>
 </html>
