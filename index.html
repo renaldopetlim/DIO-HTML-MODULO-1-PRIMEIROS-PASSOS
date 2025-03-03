@@ -177,46 +177,58 @@
     <hr><hr>
 
     <form action="get">
-        <div>
-            <h3>Dados Pessoais</h3>
-            <label>Nome: </label>
-                <input type="text">
-            <label>E-mail: </label>
-                <input type="email">
-            <label>Profissão: </label>
-                <input type="text">
-            <label>Empresa:</label>
-                <input type="text">
-        </div>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label>Nome: </label>
+                    <input type="text">
+                <label>E-mail: </label>
+                    <input type="email">
+            </div>
+            <div>
+                <label>Profissão: </label>
+                    <input type="text">
+                <label>Empresa:</label>
+                    <input type="text">
+            </div>
+        </fieldset>
 
-        <div>
-            <h3>Endereço</h3>
-            <label>Logradouro: </label>
-                <input type="text">
-            <label>Bairro: </label>
-                <input type="email">
-            <label>Cidade: </label>
-                <input type="text">
-            <label>UF:</label>
-            <select type="role">
-                <option value="">AM</option>
-                <option value="">PA</option>
-                <option value="">TO</option>
-                <option value="">MA</option>
-            </select>
-        </div>
+        <fieldset>
+            <legend>Endereço</legend>
+            <div>
+                <label>Logradouro: </label>
+                    <input type="text">
+                <label>Bairro: </label>
+                    <input type="email">
+            </div>
+            <div>
+                <label>Cidade: </label>
+                    <input type="text">
+                <label>UF:</label>
+                    <select type="role">
+                        <option value="">AM</option>
+                        <option value="">PA</option>
+                        <option value="">TO</option>
+                        <option value="">MA</option>
+                    </select>
+            </div>
+        </fieldset>
         
-        <div>
-            <h3>Informações de Contato</h3>
-            <label>Celular: </label>
-                <input type="number">
-            <label>LinkedIn: </label>
-                <input type="url">
-            <label>WhatsApp: </label>
-                <input type="number">
-            <label>GitHub: </label>
-                <input type="url">
-        </div>
+        <fieldset>
+            <legend>Informações de Contato</legend>
+            <div>
+                <label>Celular: </label>
+                    <input type="number">
+                <label>LinkedIn: </label>
+                    <input type="url">
+            </div>
+            <div>
+                <label>WhatsApp: </label>
+                    <input type="number">
+                <label>GitHub: </label>
+                    <input type="url">
+            </div>
+        </fieldset>
 
         <div>
             <button>Limpar</button>
